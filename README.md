@@ -5,9 +5,11 @@ This is a Python application to notify me when the semester results get posted o
 and when it encounters the string "Results", it sends an SMS to my mobile number to notify me.
 Web scraping is done with the help of the bs4 module, and SMS is sent via Twilio.
 
+
 PRE-REQUISITES:
 1. Pyhton 3.x
 2. Twilio API and account
+
 
 USAGE:
 1. Create a Twilio account, and get the Twilio API. Refer to https://www.twilio.com/docs/api/messaging/send-messages for reference.
