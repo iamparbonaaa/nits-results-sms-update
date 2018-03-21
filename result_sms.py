@@ -1,10 +1,10 @@
 from twilio.rest import Client
 import bs4, requests
 
-account = 'AC7ea308c25e5a2505d48759932cbb35d7'
-pwd = 'f36b3268ea4de308d4a67c2dc0a3b10f'
-myCell = '+917086504992'
-twlNum = '+17748543092'
+account = 'xxxxxxxxxxx'
+pwd = 'xxxxxxxxxxx'
+myCell = '+0000000000'
+twlNum = '+00000000000'
 twilioCli = Client(account, pwd)
 res = requests.get('http://nits.ac.in')
 res.raise_for_status()
